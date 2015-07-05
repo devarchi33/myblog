@@ -8,31 +8,6 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 			controller: 'MainController'
 		})
 
-		.when('/nerds', {
-			templateUrl: 'views/nerd.html',
-			controller: 'NerdController'
-		})
-
-		.when('/geeks', {
-			templateUrl: 'views/geek.html',
-			controller: 'GeekController'	
-		})
-
-		.when('/kakao/api', {
-			templateUrl: 'views/kakao.html',
-			controller: 'KakaoController'	
-		})
-
-		.when('/kakao/kakaolinkdemo.html', {
-			templateUrl: 'views/kakaolinkdemo.html',
-			controller: 'KakaoController'	
-		})
-
-		.when('/test', {
-			templateUrl: 'views/test.html',
-			controller: 'TestController'	
-		});
-
 	$locationProvider.html5Mode(true);
 
 }]);

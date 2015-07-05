@@ -1,2 +1,2 @@
 angular.module('skyfly33App', 
-	['ngRoute', 'appRoutes']);
+	['ngRoute', 'appRoutes', 'MainCtrl']);
