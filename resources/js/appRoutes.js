@@ -8,6 +8,12 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 			controller: 'MainController'
 		})
 
+		// home page
+		.when('/form', {
+			templateUrl: 'views/form.html',
+			controller: 'FormController'
+		});
+
 	$locationProvider.html5Mode(true);
 
 }]);
